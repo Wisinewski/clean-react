@@ -1,4 +1,4 @@
-module.export = {
+module.exports = {
   roots: ['<rootDir>/src'],
   collectCoverageFrom: [
     '<rootDir>/src/**/*.{ts,tsx}'
@@ -6,6 +6,6 @@ module.export = {
   coverageDirectory: 'coverage',
   testEnvironment: 'node',
   transform: {
-    '.*\\.ts$': 'ts-jest'
+    '.+\\.ts$': 'ts-jest'
   }
 }
